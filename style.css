@@ -12,6 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
 }
 
 #LogoDiarioTech {
@@ -24,24 +25,32 @@ header p {
   padding-right: 15px;
 }
 
+header  h1{
+  margin: 0;
+}
+
 nav {
+  
   background-color: #00363E;
   text-align: center;
   border-radius: 0 0 5px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 nav ul {
-  display: none; /* Oculto por defecto */
+  display: none; 
   justify-content: center;
   list-style: none;
+
   
 }
 
 nav ul li {
-  padding-right: 15px;
+  
+  padding-right: 20px;
 }
 
 nav ul li a {
@@ -74,7 +83,7 @@ main {
   max-width: 100%;
   margin: 40px auto;
   padding: 20px;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -264,8 +273,8 @@ main {
 }
 
 .contenidoNoticiaSec a {
-  font-size: 18px;
-  color: #a9d7fe;
+  font-size: 20px;
+  color: #26cefc;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -273,28 +282,6 @@ main {
 .contenidoNoticiaSec a:hover {
   color: #0088ff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -348,7 +335,7 @@ footer #LogoDiarioTech {
 .redes svg {
   width: 100%;
   height: 100%;
-  fill: rgb(202, 202, 202); /* Puedes ajustar el color según sea necesario */
+  fill: rgb(202, 202, 202); 
 }
 
 footer p {
@@ -422,6 +409,8 @@ footer p {
 
 /* Estilos para desktops (mínimo 1024px) */
 @media screen and (min-width: 1024px) {
+
+  
   main{
     display: flex;
     flex-direction: column;
@@ -429,6 +418,11 @@ footer p {
     align-items: center;
     text-align: center;
     height: 100%;
+
+    width: 100%;
+    max-width: 1200px; /* Ajusta según sea necesario */
+
+
   }
   .NoticiaPrincipal {
     display: flex;
@@ -436,16 +430,19 @@ footer p {
     justify-content: center;
     align-content: flex-end;
     position: relative;
-    width: 50%;
+    width: 40%;
   }
   .primerBloque{
-    width: 80%;
+
+    max-width: (1206*0.8) px;
+
+    width: 100%;
     display: flex;
     height: auto;
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center
   }
   nav ul{
     display: flex;
@@ -458,7 +455,7 @@ footer p {
   }
 
   .NoticiasSecNoImg {
-    width: 50%;
+    width: 40%;
   }
 
 
@@ -468,6 +465,7 @@ footer p {
     flex-direction: row;
     justify-content: center;
 
+    /*width: 80;*/
 
   }
 
