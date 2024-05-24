@@ -14,7 +14,7 @@ header {
   align-items: center;
 }
 
-header img {
+#LogoDiarioTech {
   mix-blend-mode: plus-lighter;
   filter: invert(1) brightness(9.2) contrast(1.1);
   padding: 5px;
@@ -89,13 +89,14 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   height: 500px;
   width: 100%;
   background-image: url("assets/ImgNoticiaPrincipal.png");
   background-size: cover;
   background-position: center;
   position: relative;
+  border-radius: 7%;
 }
 
 .primerBloque {
@@ -117,6 +118,8 @@ main {
   color: #fff;
   bottom: 0;
   width: 100%;
+  border-bottom-right-radius: 8%;
+  border-bottom-left-radius: 8%;
 }
 
 .contenido-noticiaP h2 {
@@ -166,14 +169,190 @@ main {
   margin-bottom: 10px;
 }
 
+.noticiaNoImg a{
+  font-size: 16px;
+  color: #0766ba;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+}
+
+
+
+
+.masNoticias{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ImgNoticiaSecundaria{
+  width: 40%;
+  height: 100%;
+  background-image: url("assets/ImgNoticiaSecundaria.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  background-size:contain;
+  background-position: center;
+}
+
+
+#Cpp{
+  background-image: url("assets/C++.jpg");
+}
+#C{
+  background-image: url("assets/C.jpg");
+}
+#JS{
+  background-image: url("assets/JS.jpg");
+}
+#python{
+  background-image: url("assets/python.jpg");
+}
+#Csharp{
+  background-image: url("assets/Csharp.jpg");
+}
+#CSS{
+  background-image: url("assets/CSS.jpg");
+  
+}
+#HTML{
+  background-image: url("assets/HTML.jpg");
+}
+#exJS{
+  background-image: url("assets/ExJS.jpg");
+}
+#nodeJS{
+  background-image: url("assets/nodeJS.jpg");
+}
+#React{
+  background-image: url("assets/React.jpg");
+}
+#MongoDB{
+  background-image: url("assets/mongoDB.jpg");
+}
+
+
+
+
+
+.contenidoNoticiaSec{
+
+  /*width: 50%;*/
+  /*padding: 20px;*/
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.contenidoNoticiaSec h2{
+  padding: 0;
+  margin-top: 50px;
+}
+
+.contenidoNoticiaSec p{
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.contenidoNoticiaSec a {
+  font-size: 18px;
+  color: #a9d7fe;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contenidoNoticiaSec a:hover {
+  color: #0088ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
   background-color: #00363E;
   bottom: 0;
   height: 10%;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  color:  rgb(202, 202, 202);
+
+}
+
+footer .redes{
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  
+
+}
+
+footer .arriba{
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+footer #LogoDiarioTech {
+  height: 100px;
+  position: relative;
+}
+
+
+.redes a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  
+}
+
+.redes svg {
+  width: 100%;
+  height: 100%;
+  fill: rgb(202, 202, 202); /* Puedes ajustar el color según sea necesario */
 }
 
 footer p {
-  margin: 0;
+  margin: 10px;
 }
 
 
@@ -204,9 +383,10 @@ footer p {
     display: flex;
     height: auto;
     flex-wrap: nowrap;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 90%;
   }
 
   nav ul{
@@ -221,6 +401,23 @@ footer p {
   .contenido-noticiaP p {
     display: flex;
   }
+
+  .masNoticias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* Estilos para desktops (mínimo 1024px) */
@@ -237,16 +434,16 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-content: flex-end;
     position: relative;
     width: 50%;
   }
   .primerBloque{
-    width: 60%;
+    width: 80%;
     display: flex;
     height: auto;
     flex-wrap: nowrap;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -261,7 +458,47 @@ footer p {
   }
 
   .NoticiasSecNoImg {
-    width: 30%;
+    width: 50%;
   }
 
+
+  .masNoticias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+  }
+
+  .ImgNoticiaSecundaria {
+  width: 40%;
+    
+  }
+ footer{
+  display: flex;
+  align-items: flex-start
+ }
+
+  footer .arriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  footer #LogoDiarioTech {
+    margin-left: 3%;
+  }
+
+  footer .redes{
+    margin-right: 5%;
+  }
+
+  footer p{
+    margin-left: 3%;
+  }
+
+ 
 }
+
+
