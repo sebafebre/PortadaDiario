@@ -353,6 +353,7 @@ footer p {
     align-items: center;
     text-align: center;
     height: 100%;
+    max-width: 1300px; 
   }
 
 
@@ -430,7 +431,7 @@ footer p {
     height: 100%;
 
     width: 100%;
-    max-width: 1300px; /* Ajusta según sea necesario */
+    max-width: 1300px; 
 
 
   }
