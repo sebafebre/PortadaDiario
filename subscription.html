@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Suscripción</title>
+    <link rel="stylesheet" href="subscription.css">
+
+</head>
+<body>
+    <header>
+        <img src="assets\LogoTech.png" id="LogoDiarioTech" alt="Logo Diario Tech">
+        <h1>Diario Tech</h1>
+        <p>Noticias de tecnología</p>
+    </header>
+
+    <main>
+        <form id="subscriptionForm">
+            <h1 id="form-title">HOLA</h1>
+            <div class="formDato">
+                <label for="full-name">Nombre Completo:</label>
+                <input type="text" id="full-name" name="full-name">
+                <small class="error" id="error-full-name"></small>
+            </div>
+            <div class="formDato">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <small class="error" id="error-email"></small>
+            </div>
+            <div class="formDato">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password">
+                <small class="error" id="error-password"></small>
+            </div>
+            <div class="formDato">
+                <label for="confirm-password">Repetir Contraseña:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                <small class="error" id="error-confirm-password"></small>
+            </div>
+            <div class="formDato">
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age">
+                <small class="error" id="error-age"></small>
+            </div>
+            <div class="formDato">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone">
+                <small class="error" id="error-phone"></small>
+            </div>
+            <div class="formDato">
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" name="address">
+                <small class="error" id="error-address"></small>
+            </div>
+            <div class="formDato">
+                <label for="city">Ciudad:</label>
+                <input type="text" id="city" name="city">
+                <small class="error" id="error-city"></small>
+            </div>
+            <div class="formDato">
+                <label for="postal-code">Código Postal:</label>
+                <input type="text" id="postal-code" name="postal-code">
+                <small class="error" id="error-postal-code"></small>
+            </div>
+            <div class="formDato">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni">
+                <small class="error" id="error-dni"></small>
+            </div>
+            <div class="formDato">
+                <button type="submit" id="submit-btn">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="arriba">
+            <img src="assets\LogoTech.png" id="LogoDiarioTech" alt="Logo Diario Tech">
+        
+            <div class="redes">
+                <a href="https://www.facebook.com" rel="me nofollow" target="_blank" class="block" title="DiarioTech  en Facebook">
+                    <svg class="svg-fb block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.7 100" fill="gray"><path class="st0" d="M31.2 100.1H12.5v-50H0V32.9h12.5l0-10.1c0-14.1 3.8-22.6 20.4-22.6h13.8v17.2H38c-6.4 0-6.8 2.4-6.8 6.9l0 8.6h15.5l-1.8 17.2H31.2L31.2 100.1z"></path></svg>
+                </a>
+                <a href="https://twitter.com" rel="me nofollow" target="_blank" class="block" title="DiarioTech  en Twitter">
+                    <svg class="svg-tw block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 81.3"fill="gray"><path class="st0" d="M100 9.6c-3.7 1.6-7.6 2.7-11.8 3.2 4.2-2.5 7.5-6.6 9-11.3 -4 2.3-8.3 4-13 5 -4.4-4.7-11-7.3-18.2-6.2 -9 1.3-16.2 8.9-17.2 17.9 -0.3 2.4-0.1 4.8 0.4 7.1 -17-0.9-32.2-9-42.3-21.4 -1.8 3-2.8 6.5-2.8 10.3 0 7.1 3.6 13.4 9.1 17.1C10 31 6.8 30.1 4 28.6l0 0C3.9 38.6 11 47.1 20.5 49c-1.7 0.5-3.5 0.7-5.4 0.7 -1.3 0-2.6-0.1-3.9-0.4 2.6 8.1 10.2 14.1 19.2 14.2 -7 5.5-15.9 8.8-25.5 8.8 -1.7 0-3.3-0.1-4.9-0.3 9.1 5.8 19.9 9.2 31.4 9.2 37.7 0 58.4-31.3 58.4-58.4 0-0.9 0-1.8-0.1-2.7C93.8 17.3 97.3 13.7 100 9.6"></path></svg>
+                </a>
+                <a href="https://www.instagram.com" rel="me nofollow" target="_blank" class="block" title="DiarioTech en Instagram">
+                    <svg class="svg-ig block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"fill="gray"><path class="st0" d="M72.4 0H27.6C12.4 0 0 12.4 0 27.6v44.8C0 87.6 12.4 100 27.6 100h44.8c15.2 0 27.6-12.4 27.6-27.6V27.6C100 12.4 87.6 0 72.4 0L72.4 0zM91.1 72.4c0 10.3-8.4 18.7-18.7 18.7H27.6c-10.3 0-18.7-8.4-18.7-18.7V27.6c0-10.3 8.4-18.7 18.7-18.7h44.8c10.3 0 18.7 8.4 18.7 18.7V72.4zM91.1 72.4"></path><path class="st0" d="M50 24.2c-14.2 0-25.8 11.6-25.8 25.8 0 14.2 11.6 25.8 25.8 25.8 14.2 0 25.8-11.6 25.8-25.8C75.8 35.8 64.2 24.2 50 24.2L50 24.2zM50 66.9c-9.3 0-16.9-7.6-16.9-16.9 0-9.3 7.6-16.9 16.9-16.9S66.9 40.7 66.9 50C66.9 59.3 59.3 66.9 50 66.9L50 66.9zM50 66.9"></path><path class="st0" d="M76.8 16.7c-1.7 0-3.4 0.7-4.6 1.9 -1.2 1.2-1.9 2.9-1.9 4.6 0 1.7 0.7 3.4 1.9 4.6 1.2 1.2 2.9 1.9 4.6 1.9 1.7 0 3.4-0.7 4.6-1.9 1.2-1.2 1.9-2.9 1.9-4.6 0-1.7-0.7-3.4-1.9-4.6C80.2 17.4 78.6 16.7 76.8 16.7L76.8 16.7zM76.8 16.7"></path></svg>
+                </a>
+                <a href="https://www.youtube.com" rel="me nofollow" target="_blank" class="block" title="DiarioTech  en YouTube">
+                    <svg class="svg-yt block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 71"fill="gray"><style type="text/css">.st0{clip-path:url(#SVGID_2_);}</style><defs><rect width="100" height="71"></rect></defs><clipPath><use xlink:href="#SVGID_1_"></use></clipPath><path class="st0" d="M96.1 6.2c-3.6-4.3-10.3-6-23-6H26.9C13.8 0.1 7.1 2 3.5 6.6 0 11 0 17.6 0 26.7V44c0 17.6 4.2 26.5 26.9 26.5h46.2c11 0 17.2-1.5 21.1-5.3C98.3 61.3 100 55 100 44V26.7C100 17.1 99.7 10.5 96.1 6.2L96.1 6.2zM64.2 37.7l-21 11c-0.5 0.2-1 0.4-1.5 0.4 -0.6 0-1.2-0.2-1.7-0.5 -1-0.6-1.6-1.6-1.6-2.8V24c0-1.1 0.6-2.2 1.6-2.8 1-0.6 2.2-0.6 3.2-0.1l21 10.9c1.1 0.6 1.7 1.7 1.7 2.9C65.9 36.1 65.2 37.2 64.2 37.7L64.2 37.7zM64.2 37.7"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        <p>Diario Tech - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
