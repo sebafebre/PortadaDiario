@@ -101,7 +101,7 @@ main {
   /*margin-bottom: 20px;*/
   height: 500px;
   width: 100%;
-  background-image: url("assets/ImgNoticiaPrincipal.png");
+  background-image: url("../assets/ImgNoticiaPrincipal.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -200,7 +200,7 @@ main {
 .ImgNoticiaSecundaria{
   width: 40%;
   height: 100%;
-  background-image: url("assets/ImgNoticiaSecundaria.jpg");
+  background-image: url("../assets/ImgNoticiaSecundaria.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -211,38 +211,38 @@ main {
 
 
 #Cpp{
-  background-image: url("assets/C++.jpg");
+  background-image: url("../assets/C++.jpg");
 }
 #C{
-  background-image: url("assets/C.jpg");
+  background-image: url("../assets/C.jpg");
 }
 #JS{
-  background-image: url("assets/JS.jpg");
+  background-image: url("../assets/JS.jpg");
 }
 #python{
-  background-image: url("assets/python.jpg");
+  background-image: url("../assets/python.jpg");
 }
 #Csharp{
-  background-image: url("assets/Csharp.jpg");
+  background-image: url("../assets/Csharp.jpg");
 }
 #CSS{
-  background-image: url("assets/CSS.jpg");
+  background-image: url("../assets/CSS.jpg");
   
 }
 #HTML{
-  background-image: url("assets/HTML.jpg");
+  background-image: url("../assets/HTML.jpg");
 }
 #exJS{
-  background-image: url("assets/ExJS.jpg");
+  background-image: url("../assets/ExJS.jpg");
 }
 #nodeJS{
-  background-image: url("assets/nodeJS.jpg");
+  background-image: url("../assets/nodeJS.jpg");
 }
 #React{
-  background-image: url("assets/React.jpg");
+  background-image: url("../assets/React.jpg");
 }
 #MongoDB{
-  background-image: url("assets/mongoDB.jpg");
+  background-image: url("../assets/mongoDB.jpg");
 }
 
 
@@ -285,6 +285,53 @@ main {
 
 
 
+
+#subscription {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#subscription h2 {
+  margin-top: 0;
+}
+
+#subscription p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.subscribeButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.subscribeButton:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
   background-color: #00363E;
   bottom: 0;
@@ -306,8 +353,13 @@ footer .redes{
   align-items: center;
   margin: 10px;
 
-  
+  position: absolute;
+  width: 100%;
 
+}
+
+footer{
+  
 }
 
 footer .arriba{
