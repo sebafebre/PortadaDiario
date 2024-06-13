@@ -101,7 +101,7 @@ main {
   /*margin-bottom: 20px;*/
   height: 500px;
   width: 100%;
-  background-image: url("assets/ImgNoticiaPrincipal.png");
+  background-image: url("../assets/ImgNoticiaPrincipal.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -200,7 +200,7 @@ main {
 .ImgNoticiaSecundaria{
   width: 40%;
   height: 100%;
-  background-image: url("assets/ImgNoticiaSecundaria.jpg");
+  background-image: url("../assets/ImgNoticiaSecundaria.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -211,38 +211,38 @@ main {
 
 
 #Cpp{
-  background-image: url("assets/C++.jpg");
+  background-image: url("../assets/C++.jpg");
 }
 #C{
-  background-image: url("assets/C.jpg");
+  background-image: url("../assets/C.jpg");
 }
 #JS{
-  background-image: url("assets/JS.jpg");
+  background-image: url("../assets/JS.jpg");
 }
 #python{
-  background-image: url("assets/python.jpg");
+  background-image: url("../assets/python.jpg");
 }
 #Csharp{
-  background-image: url("assets/Csharp.jpg");
+  background-image: url("../assets/Csharp.jpg");
 }
 #CSS{
-  background-image: url("assets/CSS.jpg");
+  background-image: url("../assets/CSS.jpg");
   
 }
 #HTML{
-  background-image: url("assets/HTML.jpg");
+  background-image: url("../assets/HTML.jpg");
 }
 #exJS{
-  background-image: url("assets/ExJS.jpg");
+  background-image: url("../assets/ExJS.jpg");
 }
 #nodeJS{
-  background-image: url("assets/nodeJS.jpg");
+  background-image: url("../assets/nodeJS.jpg");
 }
 #React{
-  background-image: url("assets/React.jpg");
+  background-image: url("../assets/React.jpg");
 }
 #MongoDB{
-  background-image: url("assets/mongoDB.jpg");
+  background-image: url("../assets/mongoDB.jpg");
 }
 
 
